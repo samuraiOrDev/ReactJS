@@ -19,5 +19,5 @@ Cada componente puede tener su propio etado y es privado, es decir, sólo puede 
 
 * `fragment`: Un fragmento (fragment en inglés) es una forma de agrupar múltiples elementos hijos sin agregar un nodo adicional al DOM. Los fragmentos son útiles cuando necesitas devolver varios elementos en un componente de React sin envolverlos en un elemento contenedor adicional.
 
-* `impresión de variables en HTML:`
+* `impresión de variables en HTML:`Puede imprimir variables en HTML utilizando JSX, que es un extensión de sintaxis de JavaScript que te permite escribir código HTML dentro de tus componentes de React. JSX te permite combinar la lógica de JavaScript con la estructura de HTML de una manera más intutitiva. Las variables no pueden ser objetos debido a que JSX solamente puede representar tipos de datos primtiivos, como cadenas de texto, número y booleanos. Esto se debe a que JSX se compila a llamadas de funciones de React, y los objetos no se puden representar directamente en arból de elementos de React. 
 
