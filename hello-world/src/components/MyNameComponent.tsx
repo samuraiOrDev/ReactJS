@@ -1,15 +1,12 @@
-import { FC } from "react"
-
-
-interface Props { }
-
-const name = "MyName: Samurai Ordiales"
 
 const newMessage = {
   id: 1,
   message: "Hello",
 }
-export const MyNameComponent: FC<Props> = () => {
+interface Props {
+  title?: string
+}
+export const MyNameComponent = ({ title = 'Samurai Ordiales' }: Props) => {
 
   const addTwoNumbers = (a: number, b: number) => {
     return a + b
@@ -17,7 +14,9 @@ export const MyNameComponent: FC<Props> = () => {
   return (
 
     <>
-      <h1>{name}</h1>
+
+
+      <h1>{title}</h1>
       <h2>Apellidos: García</h2>
 
       <h3>Pintamos las propiedades de un objeto JS</h3>
@@ -42,3 +41,14 @@ export const MyNameComponent: FC<Props> = () => {
     </>
   )
 }
+
+/* 
+
+MyNameComponent.propTypes = {
+  title: PropTypes.string.isRequired,
+}
+MyNameComponent.defaultProps = { 
+  title: "Samurai Ordiales",
+}
+
+*/

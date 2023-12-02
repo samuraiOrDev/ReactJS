@@ -1,9 +1,16 @@
-import { MyNameComponent } from "./components"
+import { CounterComponent, MyNameComponent } from "./components"
+
+
+const name = "MyName: Samurai Ordiales"
 
 function App() {
 
   return (
-    <MyNameComponent />
+    <>
+      <MyNameComponent title={name} />
+      <br />
+      <CounterComponent />
+    </>
   )
 }
 
