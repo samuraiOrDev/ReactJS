@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "description": "Ordenador lenovo  1 i7 16gb ram",
+      "category": "Laptop",
+      "name": "lenovo Idepad 330",
+      "price": 750,
+      "stock": 10,
+      "status": "On Sale",
+      "total": 7500,
+      "partner": "lenovo"
+    },
+    {
+      "id": 2,
+      "description": "Ordenador hp 2017 i7 8gb ram",
+      "category": "Laptop",
+      "name": "HP Pavilion",
+      "price": 550,
+      "stock": "100",
+      "status": "Out Sale",
+      "total": 5500,
+      "partner": "HP"
+    },
+    {
+      "name": "GTRK-7",
+      "description": "Mini PC belngk 32 gb ream Ryzan 7",
+      "price": "750",
+      "total": 7500,
+      "stock": "10",
+      "category": "PC",
+      "partner": "beelingk",
+      "status": "On Sale",
+      "id": 1701625401705
+    },
+    {
+      "name": "Mac Mini PC",
+      "description": "Mac Mini M1 16BM 256GB 8C/16T",
+      "price": "1100",
+      "status": "Out Sale",
+      "stock": "10",
+      "category": "PC",
+      "partner": "Apple",
+      "id": 1701624705028,
+      "total": 11000
+    }
+  ]
+}

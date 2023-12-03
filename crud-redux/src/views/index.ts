@@ -1,0 +1,5 @@
+export * from "./NotFound"
+export * from "./EditProduct"
+export * from "./NewProducts"
+export * from "./Products"
+export * from "./Pokemons"

@@ -1,0 +1,63 @@
+/* Estilo para el formulario */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+h2 {
+  color: #007bff; /
+}
+.container-input-form {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; 
+  flex-wrap: wrap;
+  
+}
+.container-input-form .container-form-group {
+  border: 1px dashed #007bff;
+  padding: 20px 20px;
+  border-radius: 10px;
+  height: 180px;
+}
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap:2rem;
+}
+.form-group label {
+  width: 135px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 5px;
+
+}
+.form-control {
+  border: 1px solid #ced4da; 
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  padding: 10px 10px;
+}
+
+
+.btn-primary {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.btn-primary:active {
+  background-color: #0056b3;
+}

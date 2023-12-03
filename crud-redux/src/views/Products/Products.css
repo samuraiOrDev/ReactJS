@@ -1,0 +1,96 @@
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.wrong, .info, .loading {
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.info {
+  background-color: #d9b73a;
+}
+.loading {
+  background-color: #0a65ff;
+}
+.table-container {
+  width: 100%;
+  overflow: hidden;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 12px 3px  rgba(0, 0, 0, 0.1);
+}
+table thead {
+  color: var(--color-primary);
+}
+table thead tr th {
+  background-color: var(--bg-header);
+  padding: 10px 20px;
+  text-align: left;
+  font-weight: bold;
+  
+}
+table thead tr th:first-child {
+  border-top-left-radius: 10px;
+}
+table thead tr th:last-child {
+  border-top-right-radius: 10px;
+}
+table tbody tr td {
+  padding: 10px 20px;
+}
+table tbody tr:nth-child(2n) {
+  background-color: var(--bg-header);
+}
+.buttons-actions {
+  display: flex;
+  gap: 1rem;
+}
+table tbody tr td button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+table tbody tr td button svg {
+  color: white;
+  height: 20px;
+}
+table tbody tr td button:first-child {
+  background-color: #0a65ff;
+}
+table tbody tr td button:last-child {
+  background-color: red;
+}
+
+.button-on-sale {
+  border-radius: 10px;
+  background-color: #0a64ff1a;
+  padding: 5px 5px;
+  color: var(--color-primary);
+}
+
+.button-on-sale {
+  border-radius: 10px;
+  background-color: #0a64ff1a;
+  padding: 5px 5px;
+  color: var(--color-primary);
+}
+.button-out-sale {
+  border-radius: 10px;
+  background-color: #ff00001a;
+  padding: 5px 5px;
+  color: red;
+}
